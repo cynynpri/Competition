@@ -4,3 +4,4 @@ demo.*
 *.py
 *.hs
 *.cs
+.vscode/*
