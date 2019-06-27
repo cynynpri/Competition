@@ -44,7 +44,6 @@ int main(){
     vector<int> ans = ranks;
     for(int i = 0;i < N; i++){
         for(int j = 0;j < N; j++){
-            //printf("%d\n", ranks[j]);
             if(i+1 == ranks[j]){
                 ans[i] = j+1;
             }
