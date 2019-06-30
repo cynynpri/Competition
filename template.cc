@@ -26,11 +26,14 @@
 
 using namespace std;  // if U using this code in a project, U are fired.
 using ll = long long;  // using `g++ hoge.cc -o msain.out -Wall -Wextra -std=c++11`
-using ull = unsigned long long;
-using veci = vector<int>;
-// using pairi = pair<int, int>;
 // typedef long long ll;  // needless -std settings.
+using ull = unsigned long long;
 // #define int long long  // u got a greatest power. rarely using.
+
+// using veci = vector<int>;
+using vecs = vector<signed>;
+// using pri = pair<int, int>;
+// using prs = pair<signed, signed>;
 
 // @FYI
 // @url : https://qiita.com/drken/items/3b4fdf0a78e7a138cd9a
