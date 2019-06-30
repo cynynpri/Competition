@@ -71,16 +71,16 @@ int main()
 {
     string key = "ICPC";
     string msg = "ACCEPTED(^^)";
-    cout << "key = " << key.c_str() << endl;
-    cout << "msg = " << msg.c_str() << endl;
-    cout << "encrypted val = " << encrypt(key, msg).c_str() << endl;
-    cout << "decrypted val = " << decrypt(key, encrypt(key, msg)).c_str() << endl;
+    cout << "key = " << key << endl;
+    cout << "msg = " << msg << endl;
+    cout << "encrypted val = " << encrypt(key, msg) << endl;
+    cout << "decrypted val = " << decrypt(key, encrypt(key, msg)) << endl;
     cout << endl;
     cout << endl;
     key = "GOOGLE";
     string enc = "0j:\\,ujj?FQiIVjm5HO}9.";
-    cout << "key = " << key.c_str() << endl;
-    cout << "enc = " << enc.c_str() << endl;
-    cout << "decrypted val = " << decrypt(key, enc).c_str() << endl;
+    cout << "key = " << key << endl;
+    cout << "enc = " << enc << endl;
+    cout << "decrypted val = " << decrypt(key, enc) << endl;
     return 0;
 }
