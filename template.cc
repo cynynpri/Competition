@@ -1,13 +1,34 @@
 #include <bits/stdc++.h>  // using gnu c++ compiler.
-// #include <iostream>
+// #include <set>
+// #include <map>
+// #include <list>
+// #include <queue>
+// #include <stack>
+// #include <cmath>
+// #include <ctime>
 // #include <cstdio>
 // #include <vector>
-// #include <algorithm>
 // #include <string>
-// #include <map>
+// #include <bitset>
+// #include <cctype>
+// #include <cstdlib>
+// #include <cstring>
+// #include <utility>
+// #include <numeric>
+// #include <complex>
+// #include <sstream>
+// #include <fstream>
+// #include <iomanip>
+// #include <cassert>
+// #include <iostream>
+// #include <iterator>
+// #include <algorithm>
 
 using namespace std;  // if U using this code in a project, U are fired.
 using ll = long long;  // using `g++ hoge.cc -o msain.out -Wall -Wextra -std=c++11`
+using ull = unsigned long long;
+using veci = vector<int>;
+// using pairi = pair<int, int>;
 // typedef long long ll;  // needless -std settings.
 // #define int long long  // u got a greatest power. rarely using.
 
@@ -17,6 +38,13 @@ using ll = long long;  // using `g++ hoge.cc -o msain.out -Wall -Wextra -std=c++
 #define rep(i, n) for(signed i = 0, i##_len = (n); i < i##_len; ++i)
 #define _rep(i, n) for(signed i = (n) - 1; i > 0; --i)
 #define all(vec) (vec).begin(), (vec).end()
+#define pb push_back
+
+constexpr long long LINF{1001001001001001001ll};
+constexpr signed INF{100000008};
+constexpr signed MOD{(signed)1e9 + 7};
+constexpr double EPS{1e-9};
+const double PI{acos(-1)};
 
 // @special functions
 // @comment : `ll comb` is `ll modpow` required.
