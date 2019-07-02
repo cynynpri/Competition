@@ -1,28 +1,4 @@
 #include <bits/stdc++.h> // using gnu c++ compiler.
-// #include <set>
-// #include <map>
-// #include <list>
-// #include <queue>
-// #include <stack>
-// #include <cmath>
-// #include <ctime>
-// #include <cstdio>
-// #include <vector>
-// #include <string>
-// #include <bitset>
-// #include <cctype>
-// #include <cstdlib>
-// #include <cstring>
-// #include <utility>
-// #include <numeric>
-// #include <complex>
-// #include <sstream>
-// #include <fstream>
-// #include <iomanip>
-// #include <cassert>
-// #include <iostream>
-// #include <iterator>
-// #include <algorithm>
 
 using namespace std;  // if U using this code in a project, U are fired.
 using ll = long long; // using `g++ hoge.cc -o msain.out -Wall -Wextra -std=c++11`
@@ -34,9 +10,6 @@ using ull = unsigned long long;
 using vecs = vector<signed>;
 // using pri = pair<int, int>;
 // using prs = pair<signed, signed>;
-
-// @FYI
-// @url : https://qiita.com/drken/items/3b4fdf0a78e7a138cd9a
 
 #define rep(i, n) for (signed i = 0, i##_len = (n); i < i##_len; ++i)
 #define _rep(i, n) for (signed i = (n)-1; i > 0; --i)
