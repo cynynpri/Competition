@@ -1,14 +1,11 @@
 #include <bits/stdc++.h>
 
-//using ll = long long;
-//typedef long ll;
-
 using namespace std;
+
 
 int main()
 {
     long long int N = 0;
-    // cin >> N;
     cin >> N;
     long long int show = N-1, i = 0, j = 0, exlen = 0;
     
