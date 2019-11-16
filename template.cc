@@ -25,10 +25,10 @@
 // #include <algorithm>
 
 using namespace std;  // if U using this code in a project, U are fired.
-using ll = long long;  // using `g++ hoge.cc -o msain.out -Wall -Wextra -std=c++11`
+using ll = long long;  // using `g++ hoge.cc -o main.out -Wall -Wextra -std=c++11 --exec-charset=cp932`
 // typedef long long ll;  // needless -std settings.
 using ull = unsigned long long;
-// #define int long long  // u got a greatest power. rarely using.
+// #define int long long  // u got a greatest power. rarely used.
 
 // using veci = vector<int>;
 using vecs = vector<signed>;
