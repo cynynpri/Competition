@@ -58,42 +58,22 @@ const double PI{acos(-1)};
 // ll modpow(ll x, ll n, ll mod){ll res = 1ll; while(n > 0ll){ if(n & 1ll){ res *= x; res %= mod;} x *= x; x %= mod; n >>= 1ll;} return res;}
 // ll comb(ll a, ll b, ll p){ if (b > a-b) return comb(a, a-b, p); ll c=1ll, d=1ll; for(ll i=0ll; i<b; ++i){c*=(a-i); d*=(b-i); c%=p; d%=p;} return c * modpow(d, p-2ll, p)%p;}
 
-// signed _modpow(signed x, signed n, signed mod);  // TODO : comment in `signed _modpow`.
-// signed _comb(signed x, signed b, signed p);  // TODO : comment in `signed _comb` and `signed _modpow`.
+// signed int_modpow(signed x, signed n, signed mod);  // TODO : comment in `signed _modpow`.
+// signed int_comb(signed x, signed b, signed p);  // TODO : comment in `signed _comb` and `signed _modpow`.
 
-signed main()
+
+void solve(void){
+  // write your solution here.
+}
+
+
+signed main(void)
 {
-  // write here.
+  solve();
 
   return 0;
 }
 
-/*
-signed _modpow(signed x, signed n, signed mod){
-  signed res = 1;
-  while(n > 0){
-    if(n & 1){  // nが奇数のとき
-      res *= x;
-      res %= mod;
-    }
-    x *= x;
-    x %= mod;
-    n >>= 1;
-  }
-  return res;
-}
-*/
 
-/*
-signed _comb(signed a, signed b, signed p){
-  if(b > a - b) return _comb(a, a-b, p);
-  signed c=1, d=1;
-  for(signed i = 0; i < b; i++){
-    c *= (a-i);
-    d *= (b-i);
-    c %= p;
-    d %= p;
-  }
-  return c * _modpow(d, p-2, p) % p;
-}
-*/
+// signed int_modpow(signed x,signed n,signed mod){ signed res=1; while(n>0){ if(n&1){ res*=x; res%=mod;} x*=x;x%=mod;n>>=1;} return res;}
+// signed int_comb(signed a,signed b,signed p){ if(b>a-b)return int_comb(a, a-b, p);signed c=1,d=1;for(signed i=0;i<b;i++){ c*=(a-i);d*=(b-i);c%=p;d%=p;} return c*int_modpow(d,p-2,p)%p;}
