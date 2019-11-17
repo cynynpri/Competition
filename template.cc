@@ -59,7 +59,7 @@ const double PI{acos(-1)};
 // ll comb(ll a, ll b, ll p){ if (b > a-b) return comb(a, a-b, p); ll c=1ll, d=1ll; for(ll i=0ll; i<b; ++i){c*=(a-i); d*=(b-i); c%=p; d%=p;} return c * modpow(d, p-2ll, p)%p;}
 
 // signed int_modpow(signed x, signed n, signed mod);  // TODO : comment in `signed _modpow`.
-// signed int_comb(signed x, signed b, signed p);  // TODO : comment in `signed _comb` and `signed _modpow`.
+// signed int_comb(signed a, signed b, signed p);  // TODO : comment in `signed _comb` and `signed _modpow`.
 
 
 void solve(void){
