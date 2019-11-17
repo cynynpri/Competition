@@ -39,7 +39,7 @@ using vecs = vector<signed>;
 // @url : https://qiita.com/drken/items/3b4fdf0a78e7a138cd9a
 
 #define rep(i, n) for(signed i = 0, i##_len = (n); i < i##_len; ++i)
-#define _rep(i, n) for(signed i = (n) - 1; i > 0; --i)
+#define _rep(i, n) for(signed i = (n) - 1; i >= 0; --i)
 #define all(vec) (vec).begin(), (vec).end()
 #define pb push_back
 
