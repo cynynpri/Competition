@@ -3,3 +3,7 @@ demo.*
 *.java
 *.py
 .vscode/*
+*.exe
+*.bat
+test.*
+olds/*
