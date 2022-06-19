@@ -6,6 +6,10 @@ demo.*
 *.exe
 *.bat
 test.*
+<<<<<<< HEAD
 others/paiza*
 others/algomethod*
 others/aoj*
+=======
+olds/*
+>>>>>>> b78d1fc34a673c92faec6d4c2b562a58fea70fb1
