@@ -3,3 +3,9 @@ demo.*
 *.java
 *.py
 .vscode/*
+*.exe
+*.bat
+test.*
+others/paiza*
+others/algomethod*
+others/aoj*
