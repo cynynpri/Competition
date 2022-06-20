@@ -60,7 +60,8 @@ const double PI{acos(-1)};
 
 // signed int_modpow(signed x, signed n, signed mod);  // TODO : comment in `signed _modpow`.
 // signed int_comb(signed a, signed b, signed p);  // TODO : comment in `signed _comb` and `signed _modpow`.
-
+// template <typename T> vector<pair<T, T>> prime_factor(T n){ vector<pair<T, T>> ret; for(T i = 2; i * i <= n; i++){ if(n % i != 0) continue; T tmp = 0; while(n % i == 0){ tmp++; n /= i; } ret.push_back(make_pair(i, tmp)); } if(n != 1) ret.push_back(make_pair(n, 1)); return ret; }
+// template <typename T> struct PrimeFact;  // Smallest Prime Factor
 
 void solve(void){
   // write your solution here.
@@ -77,3 +78,5 @@ signed main(void)
 
 // signed int_modpow(signed x,signed n,signed mod){ signed res=1; while(n>0){ if(n&1){ res*=x; res%=mod;} x*=x;x%=mod;n>>=1;} return res;}
 // signed int_comb(signed a,signed b,signed p){ if(b>a-b)return int_comb(a, a-b, p);signed c=1,d=1;for(signed i=0;i<b;i++){ c*=(a-i);d*=(b-i);c%=p;d%=p;} return c*int_modpow(d,p-2,p)%p;}
+
+// template <typename T> struct PrimeFact{ vector<T> spf; PrimeFact(T N){ init(N); } void init(T N){ spf.assign(N + 1, 0); for(T i = 0; i <= N; i++) spf[i] = i; for(T i = 2; i * i <= N; i++){ if(spf[i] == i){ for(T j = i * i; j <= N; j += i){ if(spf[j] == j){ spf[j] == i; } } } } } map<T, T> get(T n){ map<T, T> m; while (n != 1) { m[spf[n]]++; n /= spf[n]; } return m; } };
