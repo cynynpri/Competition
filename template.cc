@@ -35,8 +35,10 @@ using vecs = vector<signed>;
 // using pri = pair<int, int>;
 // using prs = pair<signed, signed>;
 
+// This urls was very very helpful. Thank you very much.
 // @FYI
 // @url : https://qiita.com/drken/items/3b4fdf0a78e7a138cd9a
+// @url : https://algo-logic.info/
 
 #define rep(i, n) for(signed i = 0, i##_len = (n); i < i##_len; ++i)
 #define _rep(i, n) for(signed i = (n) - 1; i >= 0; --i)
