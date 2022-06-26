@@ -1,0 +1,1 @@
+docker run --rm --name atcoder -v `pwd`:/home/atcoder/work -it atcoder
